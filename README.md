@@ -1,3 +1,9 @@
+注意
+===
+* 这个脚本只适用于原生的Android OS，Samsung系列机型的logcat日志不适用
+	* 因为Start proc这句被修改了，不存在，暂时无法在app启动时，定位到它的pid
+	* 可能需要使用ps的方式，来通过包名找到对应的pid
+
 PID Cat
 =======
 
